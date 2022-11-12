@@ -21,3 +21,33 @@ header{
     font-size: 45px;
     text-transform: uppercase;
 }
+
+/*Main*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.buttons{
+    margin-top: 24px;
+}
+
+.buttons > * {
+    padding: 8px 16px;
+    background-color: #261da8;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+}
