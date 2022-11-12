@@ -1,5 +1,23 @@
-*{
+*,
+*::before,
+*::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: "Verdana";
+}
+
+/*Header*/
+header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 45px;
+    text-transform: uppercase;
 }
