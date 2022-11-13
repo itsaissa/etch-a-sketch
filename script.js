@@ -22,7 +22,7 @@ function setupGrid(size){
         let gridElem = document.createElement("div");
         gridElem.addEventListener("mouseover", colorSquares);
         gridElem.style.backgroundColor = "white";
-        gridElem.style.border = "1px solid black"
+        // gridElem.style.border = "1px solid black"
         grid.appendChild(gridElem);
     }
 }
